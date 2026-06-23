@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from veri_motoru import borsa_verisi_cek
+from backend.veri_motoru import borsa_verisi_cek
 
 app = FastAPI(title="BistFokus Canlı Veri Terminali")
 
