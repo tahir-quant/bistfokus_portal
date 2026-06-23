@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Tövbe ettim, farenin ucuyla orijinal linkinden kopyaladım:
-SHEET_ID = "1jJUkmgL5Lmn4MylKoOCkQxhSH6KEeuXLEJTTU0ReVI"
+SHEET_ID = "1jJUkmg5L5mn4MylKoOCKoQxhSH6KEeuXLEJTTU0REvI"
 
 @app.route('/api/hisseler')
 def hisseler():
