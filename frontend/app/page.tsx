@@ -19,7 +19,7 @@ export default function Home() {
   const veriyiCek = async () => {
     setYukleniyor(true);
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/hisseler");
+      const res = await fetch(https://bistfokus-backend.onrender.com/api/hisseler);
       const data = await res.json();
       if (data.basari) {
         setVeriler(data.veriler);
